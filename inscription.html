@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="inscritption.css">
+    <title>Formulaire d'Inscription</title>
+</head>
+<body>
+    <img src="Pok_Occaz__2_-removebg-preview (1).png" alt="pokemon" class="pokimage">
+    <div class="formulaire">
+    <h1>Inscription</h1>
+    <form action="connexion.html" method="get" id="registration-form" >
+        <label for="username">Nom d'utilisateur:</label><br>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Mot de passe:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirm-password">Confirmer le mot de passe:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+        <input type="submit" value="S'inscrire" class="button">
+    </form>
+    <p style="color: red; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="erreur"></p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

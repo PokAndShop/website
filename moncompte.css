@@ -1,0 +1,62 @@
+body {
+    background-image: url(Hexagon-dotted-connect-line-background.jpg);
+    background-size: fill;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.form-vente{
+    margin-top: 30px;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px black ;
+}
+.form-vente:hover{
+    transition: all 0.2s;
+    font-size: large;
+    background-color: rgb(234, 234, 28);
+}
+.form-vente a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+header a{
+
+    text-decoration: none;
+    color: black;
+   margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    font-weight: 500;
+}
+header a:hover{
+    font-size: large;
+    transition: 0.2s;
+}
+.pokimage{
+    width: 150px;
+    height: 150px;}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px yellow;
+}
+h1{
+    margin-bottom: 80px;
+}

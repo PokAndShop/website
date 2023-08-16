@@ -1,0 +1,288 @@
+body {
+  background-image: url(Hexagon-dotted-connect-line-background.jpg);
+  top: 50rem;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+header {
+  box-shadow: 0px 2px 0px 0px white;
+  border-radius: 0% 0% 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connex {
+  border: 3px solid black;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(133, 133, 133);
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.connex:hover {
+  opacity: 0.8;
+  background-color: rgb(250, 210, 49);
+  transition: all 0.2s;
+}
+
+.shoppingbag {
+  display: flex;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.lien {
+  display: flex;
+  position: relative;
+  align-items: center;
+  bottom: 1em;
+  margin-top: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.logo i{
+  display: flex;
+}
+.logo a {
+  display: flex;
+  text-decoration: none;
+}
+
+.reseau {
+  text-decoration: none;
+    margin: 20px;
+    font-size: 2em;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-radius: 50%;
+    background: grey;
+    box-shadow: 5px 5px 6px black, -5px -5px 6px black;
+  }
+
+  .reseau:hover {
+    box-shadow: inset 5px 5px 6px black, inset -5px -5px 6px darkgrey;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-top: 40px;
+}
+
+.input {
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px 0px 0px 10px;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.bouton-rechercher {
+  font-size: large;
+  background-color: black;
+  border-radius: 0px 10px 10px 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: bisque;
+}
+.bouton-rechercher :hover {
+  opacity: 0.5;
+}
+
+.pokimage {
+  width: 290px;
+  height: 200px;
+  position: relative;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px solid black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+nav .navbar {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .navbar:hover {
+  border-top: 3px solid rebeccapurple;
+}
+
+.menu {
+  margin-right: 30px;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card {
+  position: relative;
+  width: 900px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 10px 10px 5px;
+  margin: 10px;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.picture {
+  margin: 10px;
+  position: relative;
+  margin-bottom: auto;
+}
+
+.content .picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+.card .content a {
+  margin-bottom: 50px;
+}
+.card .content a:hover {
+  box-shadow: 0 2px 16px 3px rgb(230, 154, 14);
+  transition: all 0.2s;
+}
+
+.card .content p {
+  opacity: 0.7;
+}
+
+.card .content a, p {
+  color: white;
+  text-align: center;
+  background-color: rgb(68, 65, 65);
+  text-decoration: none;
+  border: 3px solid rgb(42, 41, 41);
+  border-radius: 10px;
+  opacity: 0.8;
+  margin: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-align {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+footer {
+  background-color: antiquewhite;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font: weight 700px;
+}
+footer li {
+  list-style: none;
+  margin: 10px;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}/*# sourceMappingURL=acueil.css.map */
+
+@media (max-width: 790px){
+  body{
+    margin-left: 0px;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .carrousel{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    width: 100%;
+   align-content: center;
+   justify-content: center;
+  
+  }
+ .card-align{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+
+ .content .picture img{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ }
+
+}
